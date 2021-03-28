@@ -1,0 +1,175 @@
+[TK 0000][2021-01-20 19:21:11][   0.003] STEPS simulation toolkit [TK 0000] @ 0XF8242840 is created.
+[TK 0000][2021-01-20 19:21:11][   0.003] Loading powerflow data from PSS/E file: .\data\IEEE9-2½×.raw
+[TK 0000][2021-01-20 19:21:11][   0.006] Done loading powerflow data.
+[TK 0000][2021-01-20 19:21:11][   0.006] System maximum bus number is 9 of BUS__9__
+[TK 0000][2021-01-20 19:21:11][   0.006] There are totally:
+[TK 0000][2021-01-20 19:21:11][   0.006] + 9 buses
+[TK 0000][2021-01-20 19:21:11][   0.006] + 3 generators
+[TK 0000][2021-01-20 19:21:11][   0.006] + 0 WT generators
+[TK 0000][2021-01-20 19:21:11][   0.006] + 0 PV units
+[TK 0000][2021-01-20 19:21:11][   0.006] + 0 energy storages
+[TK 0000][2021-01-20 19:21:11][   0.006] + 6 lines
+[TK 0000][2021-01-20 19:21:11][   0.006] + 3 transformers
+[TK 0000][2021-01-20 19:21:11][   0.006] + 0 fixed shunts
+[TK 0000][2021-01-20 19:21:11][   0.006] + 0 HVDCs
+[TK 0000][2021-01-20 19:21:11][   0.006] + 3 loads
+[TK 0000][2021-01-20 19:21:11][   0.006] + 1 areas
+[TK 0000][2021-01-20 19:21:11][   0.006] + 1 zones
+[TK 0000][2021-01-20 19:21:11][   0.006] + 0 owners
+[TK 0000][2021-01-20 19:21:11][   0.007] Loading dynamic data from PSS/E file: .\data\IEEE9-2½×.dyr
+[TK 0000][2021-01-20 19:21:11][   0.007] Done loading dynamic data.
+[TK 0000][2021-01-20 19:21:11][   0.008] Start solve powerflow with Full Newton Raphson solution.
+[TK 0000][2021-01-20 19:21:11][   0.008] Initializing powerflow solver.
+[TK 0000][2021-01-20 19:21:11][   0.008] Configuration of powerflow solver:
+[TK 0000][2021-01-20 19:21:11][   0.008] + Fast sin/cos/tan functions: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.008] + Maximum iteration: 50
+[TK 0000][2021-01-20 19:21:11][   0.008] + Iteration accelerator: 1
+[TK 0000][2021-01-20 19:21:11][   0.008] + Allowed maximum P mismatch: 0.001 MW
+[TK 0000][2021-01-20 19:21:11][   0.008] + Allowed maximum Q mismatch: 0.001MVar
+[TK 0000][2021-01-20 19:21:11][   0.008] + Maximum voltage change: 999 pu
+[TK 0000][2021-01-20 19:21:11][   0.008] + Maximum angle change: 999 deg (17.4358 rad)
+[TK 0000][2021-01-20 19:21:11][   0.008] + Flat start: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.008] + Transformer tap adjustment: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.008] + Non-divergent solution: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.008] + Var limit check: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.008] + Network ordering optimization: 1
+[TK 0000][2021-01-20 19:21:11][   0.008] + Export jacobian matrix step by step: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.008] Initial bus voltage and angle are listed as follows.
+[TK 0000][2021-01-20 19:21:11][   0.008] bus      voltage(pu) angle(deg)
+[TK 0000][2021-01-20 19:21:11][   0.008] 1   1.040000   0.000000
+[TK 0000][2021-01-20 19:21:11][   0.008] 2   1.025000   9.280000
+[TK 0000][2021-01-20 19:21:11][   0.008] 3   1.025000   4.664800
+[TK 0000][2021-01-20 19:21:11][   0.008] 4   1.025790  -2.216800
+[TK 0000][2021-01-20 19:21:11][   0.008] 5   0.995630  -3.988800
+[TK 0000][2021-01-20 19:21:11][   0.008] 6   1.012650  -3.687300
+[TK 0000][2021-01-20 19:21:11][   0.008] 7   1.025770   3.719700
+[TK 0000][2021-01-20 19:21:11][   0.008] 8   1.015880   0.727600
+[TK 0000][2021-01-20 19:21:11][   0.008] 9   1.032350   1.966800
+[TK 0000][2021-01-20 19:21:11][   0.008] Network internal bus numbers are optimized.
+[TK 0000][2021-01-20 19:21:11][   0.008] Done initializing powerflow solver.
+[TK 0000][2021-01-20 19:21:11][   0.008] Updating powerflow P equation buses and Q equation buses.
+[TK 0000][2021-01-20 19:21:11][   0.008] Done updating powerflow P equation buses and Q equation buses.
+[TK 0000][2021-01-20 19:21:11][   0.008] Done building separate jacobian matrix.
+[TK 0000][2021-01-20 19:21:11][   0.008] Iteration 0:
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum   active power mismatch found:   0.001456MW   at bus 4 [BUS__4__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum reactive power mismatch found:   0.012563MVar at bus 4 [BUS__4__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum angle   change is: 1.67848e-06 rad (9.61698e-05 deg).
+[TK 0000][2021-01-20 19:21:11][   0.009] + Maximum voltage change is: 4.32406e-06 pu.
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum   active power mismatch found:   0.001456MW   at bus 4 [BUS__4__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum reactive power mismatch found:   0.012563MVar at bus 4 [BUS__4__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum   active power mismatch found:   0.000000MW   at bus 4 [BUS__4__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum reactive power mismatch found:   0.000000MVar at bus 6 [BUS__6__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Iteration 1:
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum   active power mismatch found:   0.000000MW   at bus 4 [BUS__4__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Maximum reactive power mismatch found:   0.000000MVar at bus 6 [BUS__6__].
+[TK 0000][2021-01-20 19:21:11][   0.009] Powerflow converged within 1 iterations.
+[TK 0000][2021-01-20 19:21:11][   0.010] Start solve powerflow with Full Newton Raphson solution.
+[TK 0000][2021-01-20 19:21:11][   0.010] Initializing powerflow solver.
+[TK 0000][2021-01-20 19:21:11][   0.010] Configuration of powerflow solver:
+[TK 0000][2021-01-20 19:21:11][   0.010] + Fast sin/cos/tan functions: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.010] + Maximum iteration: 50
+[TK 0000][2021-01-20 19:21:11][   0.010] + Iteration accelerator: 1
+[TK 0000][2021-01-20 19:21:11][   0.010] + Allowed maximum P mismatch: 0.001 MW
+[TK 0000][2021-01-20 19:21:11][   0.010] + Allowed maximum Q mismatch: 0.001MVar
+[TK 0000][2021-01-20 19:21:11][   0.010] + Maximum voltage change: 999 pu
+[TK 0000][2021-01-20 19:21:11][   0.010] + Maximum angle change: 999 deg (17.4358 rad)
+[TK 0000][2021-01-20 19:21:11][   0.010] + Flat start: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.010] + Transformer tap adjustment: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.010] + Non-divergent solution: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.010] + Var limit check: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.010] + Network ordering optimization: 1
+[TK 0000][2021-01-20 19:21:11][   0.010] + Export jacobian matrix step by step: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.010] Initial bus voltage and angle are listed as follows.
+[TK 0000][2021-01-20 19:21:11][   0.010] bus      voltage(pu) angle(deg)
+[TK 0000][2021-01-20 19:21:11][   0.010] 1   1.040000   0.000000
+[TK 0000][2021-01-20 19:21:11][   0.010] 2   1.025000   9.280005
+[TK 0000][2021-01-20 19:21:11][   0.010] 3   1.025000   4.664751
+[TK 0000][2021-01-20 19:21:11][   0.010] 4   1.025788  -2.216788
+[TK 0000][2021-01-20 19:21:11][   0.010] 5   0.995631  -3.988805
+[TK 0000][2021-01-20 19:21:11][   0.010] 6   1.012654  -3.687396
+[TK 0000][2021-01-20 19:21:11][   0.010] 7   1.025769   3.719701
+[TK 0000][2021-01-20 19:21:11][   0.010] 8   1.015883   0.727536
+[TK 0000][2021-01-20 19:21:11][   0.010] 9   1.032353   1.966716
+[TK 0000][2021-01-20 19:21:11][   0.010] Network internal bus numbers are optimized.
+[TK 0000][2021-01-20 19:21:11][   0.010] Done initializing powerflow solver.
+[TK 0000][2021-01-20 19:21:11][   0.010] Updating powerflow P equation buses and Q equation buses.
+[TK 0000][2021-01-20 19:21:11][   0.010] Done updating powerflow P equation buses and Q equation buses.
+[TK 0000][2021-01-20 19:21:11][   0.010] Done building separate jacobian matrix.
+[TK 0000][2021-01-20 19:21:11][   0.010] Iteration 0:
+[TK 0000][2021-01-20 19:21:11][   0.010] Maximum   active power mismatch found:   3.201742MW   at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.010] Maximum reactive power mismatch found:   1.120610MVar at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum angle   change is: 0.00801436 rad (0.459189 deg).
+[TK 0000][2021-01-20 19:21:11][   0.011] + Maximum voltage change is: 0.00112495 pu.
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum   active power mismatch found:   3.201742MW   at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum reactive power mismatch found:   1.120610MVar at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum   active power mismatch found:   0.223181MW   at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum reactive power mismatch found:   0.076765MVar at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Iteration 1:
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum   active power mismatch found:   0.223181MW   at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum reactive power mismatch found:   0.076765MVar at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum angle   change is: 0.000523273 rad (0.0299813 deg).
+[TK 0000][2021-01-20 19:21:11][   0.011] + Maximum voltage change is: 7.00865e-05 pu.
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum   active power mismatch found:   0.223181MW   at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum reactive power mismatch found:   0.076765MVar at bus 8 [BUS__8__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum   active power mismatch found:   0.014947MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum reactive power mismatch found:   0.005961MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Iteration 2:
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum   active power mismatch found:   0.014947MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.011] Maximum reactive power mismatch found:   0.005961MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum angle   change is: 2.36176e-05 rad (0.00135319 deg).
+[TK 0000][2021-01-20 19:21:11][   0.012] + Maximum voltage change is: 7.08982e-06 pu.
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum   active power mismatch found:   0.014947MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum reactive power mismatch found:   0.005961MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum   active power mismatch found:   0.001766MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum reactive power mismatch found:   0.000706MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Iteration 3:
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum   active power mismatch found:   0.001766MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum reactive power mismatch found:   0.000706MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum angle   change is: 1.2711e-06 rad (7.28289e-05 deg).
+[TK 0000][2021-01-20 19:21:11][   0.012] + Maximum voltage change is: 8.7332e-07 pu.
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum   active power mismatch found:   0.001766MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum reactive power mismatch found:   0.000706MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum   active power mismatch found:   0.000217MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum reactive power mismatch found:   0.000087MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Iteration 4:
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum   active power mismatch found:   0.000217MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Maximum reactive power mismatch found:   0.000087MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.012] Powerflow converged within 4 iterations.
+[TK 0000][2021-01-20 19:21:11][   0.013] System dynamic simulation time step is set as :0.001 s.
+[TK 0000][2021-01-20 19:21:11][   0.013] Configuration of dynamic simulator:
+[TK 0000][2021-01-20 19:21:11][   0.013] + Fast sin/cos/tan function: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.013] + Time step: 0.001 s
+[TK 0000][2021-01-20 19:21:11][   0.013] + Allowed maximum power imbalance: 0.001 MVA
+[TK 0000][2021-01-20 19:21:11][   0.013] + Maximum iteration for DAE solution: 100
+[TK 0000][2021-01-20 19:21:11][   0.013] + Minimum iteration for DAE solution: 3
+[TK 0000][2021-01-20 19:21:11][   0.013] + Maximum iteration for network: 50
+[TK 0000][2021-01-20 19:21:11][   0.013] + Maximum iteration for updating: 10
+[TK 0000][2021-01-20 19:21:11][   0.013] + Maximum iteration for event updating: 10
+[TK 0000][2021-01-20 19:21:11][   0.013] + Maximum network solution divergent threshold: 3
+[TK 0000][2021-01-20 19:21:11][   0.013] + Network solution accelerator: 1
+[TK 0000][2021-01-20 19:21:11][   0.013] + Rotor angle stability surveillance: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.013] + Rotor angle stability threshold: 360 deg
+[TK 0000][2021-01-20 19:21:11][   0.013] + CSV export: Enabled
+[TK 0000][2021-01-20 19:21:11][   0.013] + BIN export: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.013] + JSON export: Disabled
+[TK 0000][2021-01-20 19:21:11][   0.013] + Output file name: ./test_result/IEEE9_dynamic_result_steps
+[TK 0000][2021-01-20 19:21:11][   0.013] + Channel count: 6
+[TK 0000][2021-01-20 19:21:11][   0.013] + (   1) ROTOR ANGLE IN DEG @ GENERATOR 1 AT BUS 1
+[TK 0000][2021-01-20 19:21:11][   0.013] + (   2) TERMINAL ACTIVE POWER IN MW @ GENERATOR 1 AT BUS 1
+[TK 0000][2021-01-20 19:21:11][   0.013] + (   3) ROTOR ANGLE IN DEG @ GENERATOR 1 AT BUS 2
+[TK 0000][2021-01-20 19:21:11][   0.013] + (   4) TERMINAL ACTIVE POWER IN MW @ GENERATOR 1 AT BUS 2
+[TK 0000][2021-01-20 19:21:11][   0.013] + (   5) ROTOR ANGLE IN DEG @ GENERATOR 1 AT BUS 3
+[TK 0000][2021-01-20 19:21:11][   0.013] + (   6) TERMINAL ACTIVE POWER IN MW @ GENERATOR 1 AT BUS 3
+[TK 0000][2021-01-20 19:21:11][   0.013] Dynamics initialization starts.
+[TK 0000][2021-01-20 19:21:11][   0.013] Check maximum active and reactive power mismatch.
+[TK 0000][2021-01-20 19:21:11][   0.013] Maximum   active power mismatch found:   0.000217MW   at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.013] Maximum reactive power mismatch found:   0.000087MVar at bus 5 [BUS__5__].
+[TK 0000][2021-01-20 19:21:11][   0.013] Network internal bus numbers are optimized.
+[TK 0000][2021-01-20 19:21:11][   0.013] Dynamics initialization finished.
+[TK 0000][2021-01-20 19:21:11][   0.070] THREE PHASES FAULT will be set for bus 7[BUS__7__] at time 0.1 s.
+[TK 0000][2021-01-20 19:21:11][   0.070] + Fault shunt is(0,-1e+06) pu.
+[TK 0000][2021-01-20 19:21:11][   0.070] THREE PHASES FAULT is set for bus 7 with fault shunt (0,-1e+06) pu
+[TK 0000][2021-01-20 19:21:11][   0.144] Fault at bus 7[BUS__7__] will be cleared at time 0.2 s.
+[TK 0000][2021-01-20 19:21:11][   0.144] Fault at bus 7 is cleared.
+[TK 0000][2021-01-20 19:21:13][   1.726] Dynamics simulation stops at simulation time: 2s.
+[TK 0000][2021-01-20 19:21:13][   1.731] STEPS simulation toolkit [TK 0000] @ 0XF8242840 is deleted.
