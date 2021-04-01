@@ -1,13 +1,13 @@
 # test
 import sys
 sys.path.append('.\src')
-from PSATool import PAST
+from PSATool import PSAT
 
 raw_file = '.\data\IEEE9-2阶.raw'
 seq_file = '.\data\IEEE9.seq'
 dyr_file = '.\data\IEEE9-2阶.dyr'
 
-simulator = PAST()
+simulator = PSAT()
 simulator.load_simulation_data(raw_file, 'powerflow')
 
 buses = simulator.get_all_devices('BUS')
