@@ -1,6 +1,7 @@
 # PSATools-Python
 School of Electrical Engineering, Shandong University.
-Teaching program for power system analysis
+
+Teaching program for power system analysis.
 
 This program package is written in Python language, which can be used in the teaching of power system analysis course. It includes three functions: power flow solution, fault analysis and dynamic simulation.
 
