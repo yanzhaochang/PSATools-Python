@@ -10,12 +10,6 @@
 
 @ Founder: Yanzhao Chang, Master of Electrical Engineering.
 
-@ 修改标识：2017年10月2日
-
-@ 修改描述：
-
-@ 修改日期：
-
 '''
 import data_imexporter
 import apis
@@ -24,7 +18,7 @@ import powerflow
 import fault
 import dynamic
 
-class PSATE():
+class PSAT():
     def __init__(self):
         return
     
